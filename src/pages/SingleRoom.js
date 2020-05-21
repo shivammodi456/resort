@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Hero from "../component/Hero";
 import Banner from "../component/Banner";
 import StyledHero from "../component/StyledHero";
+import RoomContainer from "../component/RoomContainer";
 
 export class SingleRoom extends Component {
   state = {
@@ -85,6 +86,7 @@ export class SingleRoom extends Component {
               })}
             </ul>
           </section>
+          <RoomContainer />
         </div>
       </>
     );
