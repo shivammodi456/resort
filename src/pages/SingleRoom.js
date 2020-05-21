@@ -86,7 +86,6 @@ export class SingleRoom extends Component {
               })}
             </ul>
           </section>
-          <RoomContainer />
         </div>
       </>
     );
