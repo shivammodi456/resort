@@ -180,10 +180,18 @@ h6 {
 
 /* end of navbar */
 /* Hero */
-.defaultHero,
+.react-lazy-blur.background {
+  background-size: cover;
+  min-height: calc(100vh - 66px);
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
