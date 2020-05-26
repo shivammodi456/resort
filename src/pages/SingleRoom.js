@@ -12,7 +12,9 @@ export class SingleRoom extends Component {
     slug: this.props.match.params.slug,
     defaultBcg,
   };
-
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   static contextType = RoomContext;
   render() {
     const { getRoom } = this.context;
